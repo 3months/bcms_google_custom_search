@@ -13,9 +13,9 @@ Gem::Specification.new do |s|
      "README.markdown"
   ]
   s.files += Dir["app/**/*"]
-  spec.files += Dir["lib/bcms_google_custom_search.rb"]
-  spec.files += Dir["lib/bcms_google_custom_search/*"]
-  spec.files += Dir["rails/init.rb"]
+  s.files += Dir["lib/bcms_google_custom_search.rb"]
+  s.files += Dir["lib/bcms_google_custom_search/*"]
+  s.files += Dir["rails/init.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://www.3months.com}
   s.rdoc_options = ["--charset=UTF-8"]
