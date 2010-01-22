@@ -1,0 +1,5 @@
+<%= f.cms_text_field :name, :default_value => "Google Custom Search Engine", :instructions=>"The Search Box portlet will look this up by name, so make it unique." %>
+<%= f.cms_text_field :path, :default_value => "/search/search-results", :instructions=>"The path of the page this portlet will be embedded in." %>
+<%= f.cms_text_field :search_id, :label => 'Search ID', :instructions => "Unique identifier for your custom search." %>
+<%= f.cms_text_field :front_end_name, :instructions => "Copy the name of the Collection front end from Google Custom Search here." %>
+<%= f.cms_text_area :template, :default_value => @block.class.default_template %>
